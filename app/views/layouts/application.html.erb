@@ -7,9 +7,15 @@
 
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400|Playfair+Display:400,500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3836d342c9.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
+    <%= render 'layouts/navigation' %>
+
+
     <%= yield %>
   </body>
 </html>
